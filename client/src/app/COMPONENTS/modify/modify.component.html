@@ -1,0 +1,77 @@
+<div class="container">
+    <p>MODIFICAR PELÍCULA</p>
+    <div class="row">
+        <div class="col-sm-6">
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Nombre</label>
+                    <input [(ngModel)]="movie.mov_title" type="text" class="form-control" name="name">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Año</label>
+                    <input [(ngModel)]="movie.mov_year" type="text" class="form-control" name="year">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Duración</label>
+                    <input [(ngModel)]="movie.mov_time" type="text" class="form-control" name="time">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Lenguaje</label>
+                    <input [(ngModel)]="movie.mov_lang" type="text" class="form-control" name="language">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Lanzamiento</label>
+                    <input [(ngModel)]="movie.mov_dt_rel" type="text" class="form-control" name="releaseDate">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">País de Lanzamiento</label>
+                    <input [(ngModel)]="movie.mov_rel_country" type="text" class="form-control" name="releaseCountry">
+                </div>
+            
+            <button (click)="modify()" class="btn btn-primary">Guardar</button>
+
+            </form>
+        </div>
+
+
+
+
+        <div class="col-sm-6">
+
+            <form>
+
+                <div class="mb-3">
+                    <label class="form-label">{{movie.mov_title}}</label>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">{{movie.mov_year}}</label>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">{{movie.mov_time}}</label>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">{{movie.mov_lang}}</label>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">{{movie.mov_dt_rel}}</label>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">{{movie.mov_rel_country}}</label>
+                </div>
+                
+            </form>
+        </div>
+
+    </div>
+    
+</div>
