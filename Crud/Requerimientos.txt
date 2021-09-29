@@ -1,0 +1,38 @@
+Funcionalidades>
+Leer,crear,modificar y eliminar películas => string
+
+tecnologías:
+Angular
+MySql
+Servidor Express
+git/ github colaborativo.
+
+Requerimientos
+Mockup
+
+ lista de peliculas a partir de la tabla Movie, con sus respectivos datos (id, titulo, año, tiempo, lenguaje, fecha de lanzamiento, país)
+
+documentación técnica  => Readme
+
+El desarrollo debe ser RESPONSIVE
+
+PUNTO EXTRA: Realizar un buscador de datos para la tabla.
+
+Requerimientos técnicos del servidor:** Debe realizarlo con Typescript y con Express Js El servidor está desplegado y se puede acceder a sus datos desde la web 
+
+ La base de datos cuenta con las 3 primeras formas normales Cuenta con su diagráma de entidad relación No existen redundancias de datos. El formato de fecha debe ser trasnformado a: dd/mm/aaaa
+ 
+Entregables
+Link desplegado del frontend
+Link desplegado del servidor
+Mockup de la interfaz
+Diagrama de la base de datos
+
+Organigrama 
+=> Base de datos
+=> Crear Angular y github colaborativo
+=> Mockup
+=> Servidor Express
+=> Código en Angular
+=> Despliegue
+ 
